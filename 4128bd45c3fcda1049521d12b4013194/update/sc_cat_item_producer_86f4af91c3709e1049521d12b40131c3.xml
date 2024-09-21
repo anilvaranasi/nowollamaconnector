@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category/>
-        <checked_out>true</checked_out>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-21 21:18:44</sys_created_on>
         <sys_id>86f4af91c3709e1049521d12b40131c3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Course assistant</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
         <sys_update_name>sc_cat_item_producer_86f4af91c3709e1049521d12b40131c3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:22:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-21 21:44:45</sys_updated_on>
         <table_name>x_146833_awesome_0_request</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>1</version>
+        <version>7</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -170,4 +170,15 @@
         <sys_created_on>2024-09-21 21:20:09</sys_created_on>
         <sys_id>03456fd1c3709e1049521d12b4013139</sys_id>
     </sys_attachment_doc>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>86f4af91c3709e1049521d12b40131c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 21:45:10</sys_created_on>
+        <sys_id>690b275dc3709e1049521d12b401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 21:45:10</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

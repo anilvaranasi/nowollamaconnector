@@ -41,7 +41,7 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>question_2</name>
+        <name>ca_answer</name>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -77,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-21 21:18:46</sys_created_on>
         <sys_id>faf4a3d1c3709e1049521d12b401313b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Answer</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ca_answer</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
         <sys_update_name>item_option_new_faf4a3d1c3709e1049521d12b401313b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:22:52</sys_updated_on>
+        <sys_updated_on>2024-09-21 21:44:23</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
