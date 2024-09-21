@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content Type</name>
+        <rest_message_function display_value="Default GET">58d9b909c3fcda1049521d12b40131fd</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 19:35:30</sys_created_on>
+        <sys_id>27f93109c3fcda1049521d12b401312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Type</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_27f93109c3fcda1049521d12b401312e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:35:30</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sys_rest_message_fn_headers_27f93109c3fcda1049521d12b401312e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content Type</name><rest_message_function display_value="Default GET">58d9b909c3fcda1049521d12b40131fd</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-20 19:35:30</sys_created_on><sys_id>27f93109c3fcda1049521d12b401312e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content Type</sys_name><sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package><sys_policy/><sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope><sys_update_name>sys_rest_message_fn_headers_27f93109c3fcda1049521d12b401312e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-20 19:35:30</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>1004230806</payload_hash>
+        <record_name>Content Type</record_name>
+        <reverted_from/>
+        <source>2a28bd45c3fcda1049521d12b40131ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 19:35:31</sys_created_on>
+        <sys_id>a8c34e09c3fcda1049521d12b40131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19210eeb19c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:35:31</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>6cc34e0901fcda10638bc950f7fce2f2</update_guid>
+        <update_guid_history>6cc34e0901fcda10638bc950f7fce2f2:1004230806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 19:38:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>0ac8923c04264eedb873d0ef69f0dfe1</sys_id>
+        <sys_metadata>27f93109c3fcda1049521d12b401312e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Type</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent display_value="Generate (Post)">58d9b909c3fcda1049521d12b40131fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_27f93109c3fcda1049521d12b401312e</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_27f93109c3fcda1049521d12b401312e">a8c34e09c3fcda1049521d12b40131f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 19:38:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
