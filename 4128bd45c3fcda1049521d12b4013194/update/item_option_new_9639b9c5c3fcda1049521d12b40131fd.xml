@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
-        <cat_item display_value="">ad097985c3fcda1049521d12b401315a</cat_item>
+        <cat_item display_value="Personal GENAI portal">ad097985c3fcda1049521d12b401315a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-20 18:49:30</sys_created_on>
         <sys_id>9639b9c5c3fcda1049521d12b40131fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Question 3</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
         <sys_update_name>item_option_new_9639b9c5c3fcda1049521d12b40131fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-20 19:48:48</sys_updated_on>
+        <sys_updated_on>2024-09-21 03:11:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
