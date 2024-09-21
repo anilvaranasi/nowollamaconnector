@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name/>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name/>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 03:52:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64753345c3b81e1049521d12b40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_64753345c3b81e1049521d12b40131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 03:52:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=64753345c3b81e1049521d12b40131e7"/>
+    <sys_variable_value action="DELETE" query="document_key=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_step_instance action="DELETE" query="action=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_input action="DELETE" query="model=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_output action="DELETE" query="model=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=64753345c3b81e1049521d12b40131e7"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_64753345c3b81e1049521d12b40131e7"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_64753345c3b81e1049521d12b40131e7"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_64753345c3b81e1049521d12b40131e7"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=64753345c3b81e1049521d12b40131e7"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sys_hub_action_type_definition_64753345c3b81e1049521d12b40131e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name/>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name/>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 03:52:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64753345c3b81e1049521d12b40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_64753345c3b81e1049521d12b40131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 03:52:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=64753345c3b81e1049521d12b40131e7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_input action="delete_multiple" query="model=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_output action="delete_multiple" query="model=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=64753345c3b81e1049521d12b40131e7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_64753345c3b81e1049521d12b40131e7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_64753345c3b81e1049521d12b40131e7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_64753345c3b81e1049521d12b40131e7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_64753345c3b81e1049521d12b40131e7"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=64753345c3b81e1049521d12b40131e7"/>
+</record_update>]]></payload>
+        <payload_hash>2018172699</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>255d9715c3309e1049521d12b4013154</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 20:45:43</sys_created_on>
+        <sys_id>e66d5f15c3309e1049521d12b401319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192165551480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 20:45:43</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>e26d5f1599309e10aaa335d10f252b9d</update_guid>
+        <update_guid_history>e26d5f1599309e10aaa335d10f252b9d:0,02885f19e3fc5e105dd67f45db1a2fb8:745483430,257577c55bb81e1076f279912e61b577:333723649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 21:02:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>1787ede487cb4c5aafd5692547fc9664</sys_id>
+        <sys_metadata>64753345c3b81e1049521d12b40131e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_64753345c3b81e1049521d12b40131e7</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_64753345c3b81e1049521d12b40131e7">e66d5f15c3309e1049521d12b401319d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 21:02:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

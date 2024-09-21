@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_146833_awesome_0.MyPdiProd</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>MyPdiProd</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 04:14:10</sys_created_on>
+        <sys_id>3a6af7cdc3b81e1049521d12b40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_146833_awesome_0.MyPdiProd</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_alias_3a6af7cdc3b81e1049521d12b40131dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 04:14:10</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sys_alias_3a6af7cdc3b81e1049521d12b40131dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_146833_awesome_0.MyPdiProd</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>MyPdiProd</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 04:14:10</sys_created_on>
+        <sys_id>3a6af7cdc3b81e1049521d12b40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_146833_awesome_0.MyPdiProd</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_alias_3a6af7cdc3b81e1049521d12b40131dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 04:14:10</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>]]></payload>
+        <payload_hash>-1450655938</payload_hash>
+        <record_name>x_146833_awesome_0.MyPdiProd</record_name>
+        <reverted_from/>
+        <source>255d9715c3309e1049521d12b4013154</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 20:45:42</sys_created_on>
+        <sys_id>926d5f15c3309e1049521d12b401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19216554e610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 20:45:42</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>9e6d5f15ab309e109f137cb05dabad69</update_guid>
+        <update_guid_history>9e6d5f15ab309e109f137cb05dabad69:0,66bc5391cb309e105ea1527c37d2ccf4:152423890,c27ab7cd04b81e105cc4f5bbb5755e9a:-1053950496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 22:19:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>1ae5ec90338647628c97952cbf150204</sys_id>
+        <sys_metadata>3a6af7cdc3b81e1049521d12b40131dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_146833_awesome_0.MyPdiProd</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sys_alias_3a6af7cdc3b81e1049521d12b40131dc</sys_update_name>
+        <sys_update_version display_value="sys_alias_3a6af7cdc3b81e1049521d12b40131dc">926d5f15c3309e1049521d12b401316a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 22:19:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
