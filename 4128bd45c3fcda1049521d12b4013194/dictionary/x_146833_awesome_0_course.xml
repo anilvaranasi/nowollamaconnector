@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7c02635dc3309e1049521d12b4013194" label="Course" max_length="40" name="x_146833_awesome_0_course" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Topics" max_length="1000" name="topics" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Suggested Reading" max_length="500" name="suggested_reading" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Units" max_length="1000" name="units" type="string"/>
     </element>
 </database>

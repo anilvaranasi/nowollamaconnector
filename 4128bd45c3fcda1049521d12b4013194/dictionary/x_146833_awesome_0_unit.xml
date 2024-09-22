@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e712635dc3309e1049521d12b4013144" label="Unit" max_length="40" name="x_146833_awesome_0_unit" type="collection"/>
+    <element db_object_id="e712635dc3309e1049521d12b4013144" label="Unit" max_length="40" name="x_146833_awesome_0_unit" type="collection">
+        <element attributes="encode_utf8=false" label="Course" max_length="32" name="course" reference="x_146833_awesome_0_course" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+    </element>
 </database>

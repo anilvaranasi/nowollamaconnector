@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Awesome student assistant</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:05:56</sys_created_on>
+        <sys_id>d742a261c3f0de1049521d12b4013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awesome student assistant</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_ux_app_config_d742a261c3f0de1049521d12b4013134</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:05:56</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=d742a261c3f0de1049521d12b4013134"/>
+</record_update>

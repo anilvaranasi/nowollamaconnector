@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8532af5dc3309e1049521d12b4013185" label="Topic" max_length="40" name="x_146833_awesome_0_topic" type="collection"/>
+    <element db_object_id="8532af5dc3309e1049521d12b4013185" label="Topic" max_length="40" name="x_146833_awesome_0_topic" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="details" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_146833_awesome_0_course" type="reference"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+    </element>
 </database>
