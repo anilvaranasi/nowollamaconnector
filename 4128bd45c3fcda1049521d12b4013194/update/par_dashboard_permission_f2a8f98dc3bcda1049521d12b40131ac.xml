@@ -3,7 +3,7 @@
         <can_read>true</can_read>
         <can_share>false</can_share>
         <can_write>false</can_write>
-        <dashboard display_value="AwesomeOllamaConnector Requests">10983141c3fcda1049521d12b4013172</dashboard>
+        <dashboard display_value="Awesome Student Home">10983141c3fcda1049521d12b4013172</dashboard>
         <group/>
         <owner>false</owner>
         <role display_value="x_146833_awesome_0.agent" name="x_146833_awesome_0.agent">a748b185c3fcda1049521d12b4013172</role>

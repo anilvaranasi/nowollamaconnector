@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Personal Platform assistant">ad097985c3fcda1049521d12b401315a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 05:19:31</sys_created_on>
+        <sys_id>5769c0d5c33c1e1049521d12b40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Platform assistant.Available for public users</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_5769c0d5c33c1e1049521d12b40131ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 05:19:31</sys_updated_on>
+        <user_criteria display_value="Available for public users">ab5980d5c33c1e1049521d12b4013159</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_5769c0d5c33c1e1049521d12b40131ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Personal Platform assistant">ad097985c3fcda1049521d12b401315a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 05:19:31</sys_created_on>
+        <sys_id>5769c0d5c33c1e1049521d12b40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Platform assistant.Available for public users</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_5769c0d5c33c1e1049521d12b40131ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 05:19:31</sys_updated_on>
+        <user_criteria display_value="Available for public users">ab5980d5c33c1e1049521d12b4013159</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>]]></payload>
+        <payload_hash>1714041291</payload_hash>
+        <record_name>Personal Platform assistant.Available for public users</record_name>
+        <reverted_from/>
+        <source>255d9715c3309e1049521d12b4013154</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 20:45:42</sys_created_on>
+        <sys_id>9e6d5f15c3309e1049521d12b4013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19216554dc40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 20:45:42</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>9a6d5f151a309e107b606d7e14ca3049</update_guid>
+        <update_guid_history>9a6d5f151a309e107b606d7e14ca3049:0,50ccd391ca309e1053debf2a73df24fd:-122886071,df69c0d54a3c1e10cb5edca0e1fca2af:-1549107603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Personal Platform assistant.Available for public users">38146b51c3709e1049521d12b4013143</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 21:14:49</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>8ba97749a01b4ddc9351c9f7ab90c349</sys_id>
+        <sys_metadata>5769c0d5c33c1e1049521d12b40131ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Personal Platform assistant.Available for public users</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_5769c0d5c33c1e1049521d12b40131ad</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_5769c0d5c33c1e1049521d12b40131ad">9e6d5f15c3309e1049521d12b4013149</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 21:14:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

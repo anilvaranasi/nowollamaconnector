@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="AwesomeOllamaConnector Requests">10983141c3fcda1049521d12b4013172</dashboard>
+        <dashboard display_value="Awesome Student Home">10983141c3fcda1049521d12b4013172</dashboard>
         <name>New Tab 11</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

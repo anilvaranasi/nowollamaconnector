@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="Awesome student assistant">a342a2a1c3f0de1049521d12b40131ca</page>
+        <required_translations>[ {
+  "message" : "Course",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:09:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>03236ee1c3f0de1049521d12b4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_ux_page_property_03236ee1c3f0de1049521d12b4013105</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:09:43</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_146833_awesome_0.a342a2a1c3f0de1049521d12b40131ca.root.global.chrome_toolbar</unique_name>
+        <value>[
+    {
+        "id": "awesome-student-assistant",
+        "label": {
+            "translatable": true,
+            "message": "Course"
+        },
+        "icon": "action-fill",
+        "routeInfo": {
+            "route": "awesome-student-assistant"
+        },
+        "group": "top",
+        "order": 100,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    }
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=03236ee1c3f0de1049521d12b4013105"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sys_ux_page_property_03236ee1c3f0de1049521d12b4013105</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_toolbar</name><page display_value="Awesome student assistant">a342a2a1c3f0de1049521d12b40131ca</page><required_translations>[ {
+  "message" : "Course",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-22 11:09:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>03236ee1c3f0de1049521d12b4013105</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_toolbar</sys_name><sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package><sys_policy/><sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope><sys_update_name>sys_ux_page_property_03236ee1c3f0de1049521d12b4013105</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-22 11:09:43</sys_updated_on><type>json</type><unique_name>x_146833_awesome_0.a342a2a1c3f0de1049521d12b40131ca.root.global.chrome_toolbar</unique_name><value>[
+    {
+        "id": "awesome-student-assistant",
+        "label": {
+            "translatable": true,
+            "message": "Course"
+        },
+        "icon": "action-fill",
+        "routeInfo": {
+            "route": "awesome-student-assistant"
+        },
+        "group": "top",
+        "order": 100,
+        "badge": {},
+        "presence": {},
+        "availability": {},
+        "viewportInfo": {}
+    }
+]</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=03236ee1c3f0de1049521d12b4013105"/></record_update>]]></payload>
+        <payload_hash>-1943829883</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>417d17d1c3309e1049521d12b401313a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:09:43</sys_created_on>
+        <sys_id>07236ee1c3f0de1049521d12b4013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192196c58590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:09:43</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>0b236ee118f0de104c719e074ff3d006</update_guid>
+        <update_guid_history>0b236ee118f0de104c719e074ff3d006:-1943829883</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 12:21:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1936c5ff13914c808933353bbf53a640</sys_id>
+        <sys_metadata>03236ee1c3f0de1049521d12b4013105</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_03236ee1c3f0de1049521d12b4013105</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_03236ee1c3f0de1049521d12b4013105">07236ee1c3f0de1049521d12b4013107</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 12:21:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

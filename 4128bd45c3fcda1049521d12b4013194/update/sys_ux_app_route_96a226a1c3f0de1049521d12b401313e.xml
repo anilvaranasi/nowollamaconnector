@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Awesome student assistant">d742a261c3f0de1049521d12b4013134</app_config>
+        <app_config/>
         <description/>
         <extension_point/>
         <fields>table,sysId</fields>

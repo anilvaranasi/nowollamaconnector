@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="AwesomeOllamaConnector Requests">10983141c3fcda1049521d12b4013172</dashboard>
+        <experience display_value="Request App Workspace">53ba520177d2311055f78f71ef5a99e8</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 18:46:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38a83d85c3fcda1049521d12b401319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>par_dashboard_visibility_38a83d85c3fcda1049521d12b401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 18:46:56</sys_updated_on>
+    </par_dashboard_visibility>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>par_dashboard_visibility_38a83d85c3fcda1049521d12b401319a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="AwesomeOllamaConnector Requests">10983141c3fcda1049521d12b4013172</dashboard>
+        <experience display_value="Request App Workspace">53ba520177d2311055f78f71ef5a99e8</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-20 18:46:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38a83d85c3fcda1049521d12b401319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>par_dashboard_visibility_38a83d85c3fcda1049521d12b401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 18:46:56</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>]]></payload>
+        <payload_hash>-619779997</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>255d9715c3309e1049521d12b4013154</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-21 20:45:40</sys_created_on>
+        <sys_id>c26d1f15c3309e1049521d12b40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192165548a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-21 20:45:40</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>ce6d1f154c309e108f0c1bd6794bb4e0</update_guid>
+        <update_guid_history>ce6d1f154c309e108f0c1bd6794bb4e0:0,54ac9b515a309e1092d12255ca6a0ade:-518859406,41a83d858cfcda1013ab5cc2eee2489c:1166339851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1d4d6665c334de1049521d12b4013193</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:53:51</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>d42914ac3d944ca0a60268ef78ce6840</sys_id>
+        <sys_metadata>38a83d85c3fcda1049521d12b401319a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_38a83d85c3fcda1049521d12b401319a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_38a83d85c3fcda1049521d12b401319a">c26d1f15c3309e1049521d12b40131e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:53:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

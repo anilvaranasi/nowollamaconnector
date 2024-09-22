@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Awesome student assistant">a342a2a1c3f0de1049521d12b40131ca</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:06:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fc5222a1c3f0de1049521d12b40131e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_ux_page_property_fc5222a1c3f0de1049521d12b40131e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:09:43</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_146833_awesome_0.a342a2a1c3f0de1049521d12b40131ca.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "footer_topbar_options": {},
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=fc5222a1c3f0de1049521d12b40131e2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</application>
+        <file_path/>
+        <instance_id>b9248aa71bb102d878c7cb7b234bcbb5</instance_id>
+        <instance_name>dev263135</instance_name>
+        <name>sys_ux_page_property_fc5222a1c3f0de1049521d12b40131e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="Awesome student assistant">a342a2a1c3f0de1049521d12b40131ca</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-22 11:06:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>fc5222a1c3f0de1049521d12b40131e2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package><sys_policy/><sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope><sys_update_name>sys_ux_page_property_fc5222a1c3f0de1049521d12b40131e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-22 11:09:43</sys_updated_on><type>json</type><unique_name>x_146833_awesome_0.a342a2a1c3f0de1049521d12b40131ca.root.global.chrome_footer</unique_name><value>{
+    "public_page": {
+        "footer_topbar_options": {},
+        "footer_bar_options": {}
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=fc5222a1c3f0de1049521d12b40131e2"/></record_update>]]></payload>
+        <payload_hash>934172945</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>417d17d1c3309e1049521d12b401313a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 11:09:43</sys_created_on>
+        <sys_id>0b236ee1c3f0de1049521d12b4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192196c57f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 11:09:43</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>cf236ee1a3f0de10cfe6661bd7b5e100</update_guid>
+        <update_guid_history>cf236ee1a3f0de10cfe6661bd7b5e100:934172945,f45222a116f0de10d3ff30735f5112e4:1950747728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 12:21:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3863410c4e554fc8942db10b84417210</sys_id>
+        <sys_metadata>fc5222a1c3f0de1049521d12b40131e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_scope_delete display_value="">049eda89b7714d2aa7598773673d8924</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_fc5222a1c3f0de1049521d12b40131e2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_fc5222a1c3f0de1049521d12b40131e2">0b236ee1c3f0de1049521d12b4013101</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 12:21:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
