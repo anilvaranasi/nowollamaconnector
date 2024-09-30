@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b574f661c374de1049521d12b401319d" sys_domain="global" table="x_146833_awesome_0_course" version="3" view="workspace-awesome-student-genie-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:08:03</sys_created_on>
+            <sys_id>a3f062afc37c161049521d12b4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_146833_awesome_0_course" sys_domain="global" view="5d64f2615074de10ab5f6597a3375203">b574f661c374de1049521d12b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:08:03</sys_created_on>
+            <sys_id>eff062afc37c161049521d12b4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_146833_awesome_0_course" sys_domain="global" view="5d64f2615074de10ab5f6597a3375203">b574f661c374de1049521d12b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>author</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:08:03</sys_created_on>
+            <sys_id>e7f062afc37c161049521d12b4013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_146833_awesome_0_course" sys_domain="global" view="5d64f2615074de10ab5f6597a3375203">b574f661c374de1049521d12b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>suggested_reading</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:08:03</sys_created_on>
+            <sys_id>eff062afc37c161049521d12b4013145</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_146833_awesome_0_course" sys_domain="global" view="5d64f2615074de10ab5f6597a3375203">b574f661c374de1049521d12b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>units</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:08:03</sys_created_on>
+            <sys_id>e7f062afc37c161049521d12b4013146</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_146833_awesome_0_course" sys_domain="global" view="5d64f2615074de10ab5f6597a3375203">b574f661c374de1049521d12b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_146833_awesome_0_course</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-22 12:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b574f661c374de1049521d12b401319d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_146833_awesome_0_course</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+            <sys_update_name>sys_ui_section_b574f661c374de1049521d12b401319d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-22 12:25:17</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Awesome Student Genie 0" name="workspace-awesome-student-genie-0">5d64f2615074de10ab5f6597a3375203</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

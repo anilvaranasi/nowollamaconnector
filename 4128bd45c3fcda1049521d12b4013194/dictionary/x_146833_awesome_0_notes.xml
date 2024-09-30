@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="27a1826dc3fc9e1049521d12b401316e" label="Notes" max_length="40" name="x_146833_awesome_0_notes" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="string"/>
         <element label="Topic" max_length="32" name="topic" reference="x_146833_awesome_0_topic" type="reference"/>
         <index name="index">
             <element name="topic"/>

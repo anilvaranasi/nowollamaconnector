@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=536000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>81950227c3f8161049521d12b4013106</copied_from>
+        <copied_from_name>Generic Topics for a Unit</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>generic_courses_for_a_department</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.courses","label":"Trigger - Record Created or Updated➛Department Record➛Courses","reference":"","reference_display":"Courses","type":"string","base_type":"string","parent_table_name":"x_146833_awesome_0_department","column_name":"courses","usedInstances":{"fd22ca3a-4019-46ce-ac41-0ea41a03e486":["comma_delimited_string_list"]}},{"name":"5583aa83-dc55-42b3-bd5b-c5cb07f4fccb.__status__","label":"6 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","usedInstances":{"0a503a59-1892-476e-a9c4-be08f258b035":["log_message"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a1127b8b-e40e-4f97-bbed-4045f0ab22ee.Record","label":"3 - Look Up Record➛x_146833_awesome_0_course Record","reference":"x_146833_awesome_0_course","reference_display":"Course","type":"reference","base_type":"reference","usedInstances":{"5b17d886-6a1a-45b1-99bb-9d47a28edf5e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc783de9-d68d-4ce8-9c6e-5012f47cc7c3.item","label":"2 - For Each➛List of Objects_child0","type":"string","base_type":"string","usedInstances":{"a1127b8b-e40e-4f97-bbed-4045f0ab22ee":["conditions"],"8a57209a-ea57-4a4d-8d12-2b671e8d966f":["name"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Department Record","reference":"x_146833_awesome_0_department","reference_display":"Department","type":"reference","base_type":"reference","usedInstances":{"a1127b8b-e40e-4f97-bbed-4045f0ab22ee":["conditions"],"8a57209a-ea57-4a4d-8d12-2b671e8d966f":["course","unit","department"]},"attributes":{}},{"name":"fd22ca3a-4019-46ce-ac41-0ea41a03e486.list_of_objects","label":"1 - Convert String to Array of Objects➛List of Objects","reference_display":"List of Objects","type":"array.string","base_type":"array.string","usedInstances":{"bc783de9-d68d-4ce8-9c6e-5012f47cc7c3":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDe57fc3d33edd2110acb6d686b8ac0402","child_label":"List of Objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"cd1b6453-87e3-4589-ae5d-5339437930af","uiUniqueId":"76e4d656-c532-41f9-b053-1c471a21ee06"}},{"name":"Created or Updated_1.current.topics","label":"Trigger - Record Created or Updated➛Unit Record➛Topics","reference":"","reference_display":"Topics","type":"string","base_type":"string","parent_table_name":"x_146833_awesome_0_unit","column_name":"topics","usedInstances":{"fd22ca3a-4019-46ce-ac41-0ea41a03e486":["comma_delimited_string_list"]}}]</label_cache>
+        <master_snapshot>fc44ce80c349d61049521d12b4013182</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Generic Courses for a Department</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>614402c0c349d61049521d12b4013108</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1328accc309d61049521d12b40131cf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Generic Courses for a Department</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_hub_flow_b1328accc309d61049521d12b40131cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:32</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1328accc309d61049521d12b40131cf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b1328accc309d61049521d12b40131cf"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_146833_awesome_0_department">coursesISNOTEMPTY^coursesVALCHANGES<item endquery="false" field="courses" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="courses" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>614402c0c349d61049521d12b4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:32</sys_updated_on>
+        <table>x_146833_awesome_0_department</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>b1328accc309d61049521d12b40131cf</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:32</sys_created_on>
+        <sys_id>2d4402c0c349d61049521d12b4013108</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:32</sys_updated_on>
+        <trigger display_value="">614402c0c349d61049521d12b4013108</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b1328accc309d61049521d12b40131cf^sys_idNOT IN2d4402c0c349d61049521d12b4013108"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b1328accc309d61049521d12b40131cf"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b1328accc309d61049521d12b40131cf^sys_idNOT IN75328accc309d61049521d12b40131d1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b1328accc309d61049521d12b40131cf</id>
+        <name>Generic Courses for a Department</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:32</sys_created_on>
+        <sys_id>75328accc309d61049521d12b40131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:10:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=75328accc309d61049521d12b40131d1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b1328accc309d61049521d12b40131cf^sys_idNOT IN02328accc309d61049521d12b40131df,0a328accc309d61049521d12b40131dc,35328accc309d61049521d12b40131d8"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">7dbaf38ce4d2021008dda4ccc400801f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</model>
+        <model_id>b1328accc309d61049521d12b40131cf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>02328accc309d61049521d12b40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:10:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02328accc309d61049521d12b40131df"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</model>
+        <model_id>b1328accc309d61049521d12b40131cf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>0a328accc309d61049521d12b40131dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:11:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0a328accc309d61049521d12b40131dc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</model>
+        <model_id>b1328accc309d61049521d12b40131cf</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>35328accc309d61049521d12b40131d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:11:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=35328accc309d61049521d12b40131d8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b1328accc309d61049521d12b40131cf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b1328accc309d61049521d12b40131cf"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b1328accc309d61049521d12b40131cf^sys_idNOT IN8a328accc309d61049521d12b40131f6"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>8a328accc309d61049521d12b40131f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:11:55</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b1328accc309d61049521d12b40131cf^sys_idNOT IN02328accc309d61049521d12b40131f4,c2328accc309d61049521d12b40131f5,c2328accc309d61049521d12b40131f6,ca328accc309d61049521d12b40131f5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Convert String to Array of Objects">7110d9c75b820110a76b04d13d81c70d</action_type>
+        <action_type_parent display_value="Convert String to Array of Objects">280f09875b820110a76b04d13d81c7a5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>7110d9c75b820110a76b04d13d81c70d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>35776341-5488-4138-af69-d871fb1e457a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>02328accc309d61049521d12b40131f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:11:55</sys_updated_on>
+        <ui_id>fd22ca3a-4019-46ce-ac41-0ea41a03e486</ui_id>
+        <values>H4sIAAAAAAAA/5VRy27bMBD8lYBnWxCtyHZ9C1IEKNA2QNPkEgTCklzZBChS4cOJa/jfu5SsHHwo0ps0O8t57PORacU2rKp5qb7IVS3Wi5LzElZLUV4rXqk1lyteshmz0CExpes6aBQa3emIqgnRa7ttjA6RSHswKbOOx1uPQPMr568ee5U/G17I5D3aWEiXfMBwOtGK0qE3cHj6/02500YRyjbPLzPWgyeHET3bHC9G8dBjY0CgIYGHwTCtfzb4tPjv5J+qJxshUpgsOK+yXz5j+B7RKiRLLZiAM9aBpezOH9gm+kQAtaLurTl8MHbaRnqMZe570H/o5XVZlpnZImWXOE7lzmmJ933Uzo5IBGGmoTOpsz9H8/ka2EIycboGISkg5emzu6x3Fm8fdu7t1yR0p+0Q5Dw0ToL5+INIcUWKGPJlkv59UcKIfL88DxrsSLHpoO9zhb13ez2o5JKLraGfojXujdwFvbUFyJywoNaguCP86wA/gdc57g96hpaz3KPVrwm/5fPLild8Wak5SCnn17gQ8zVCPQchlmUtVqLmC3YaKm1eUw41lnSuoxkbJUKQXvfxhizs8Zz89PIXSFoKaF4DAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>c2328accc309d61049521d12b40131f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>a1127b8b-e40e-4f97-bbed-4045f0ab22ee</ui_id>
+        <values>H4sIAAAAAAAA/9VYXW/iOhD9K1GegZuQQELfrlohrbR3K+1296W313Jsp1hr7KzjlLaI/77jfACF8FFKr7pvxJ7xnJk5Z+JwO3c5dS9cOvJG6Wg0iCPPCwLPGw4Dgv0kCYYk8RIcuh1X4ikDS4MTweDxAYvCPj8iPxzGQYDwjOVqypCHiCp0bm0ozzOBn34cYUomXFDNpHtxe9dxM6whmmHavZhvbJmnjCGBEybgxBsLxvlikXWOTuSF83ZiNkDziGR1tNLUYvE6Lns0TFIGoVIsctZxp1hSbJR+Wq5ohum1FKuFCZcGTnSt8WPOn+H42LN2KYO0CKv2yERxwq4zw5WsVipE1aYSxVR+qZDayrIUF8I0lYWVImeIssyCs9Hq0Om3iZp9bQKNuSzzqDeFIlgsn7AxmieFYbktOhNsCgehKc4yLu9RptUDL50By7R3L+Chlwo1g6A5v5c9TCzwHtQC98awflUu/8Ca2yz+gWPAGQBxAW1FVXVz6H6Z/gMiosjLDY1lXp3lLsoaoV+FRVllXeeHqhKBQU40z8zf4PDA6lQWnYbUg71cGK16T5Sk3MbM15ht9/4twJXO5wmJ4oCyUZcOY9oNCYu7IzJk3YHn99MwIiQiQY8bNl0s/gOUWBtbvcb7EihhGHWUdr5n1P5Efo8UGppiFottofyPkU/T3eV6vY6tdatzWwNqBb5YqxXon02Boee9twaNLj6eBA+Jqkq4XVnNYsmOVXfgqU2Gi6UQfbqXHHTFg1xpg6pCrylxWyEnM3fMmaAv3hhHgGucry0JneRpF96auKmNsfHq6P85r44PSVsARFFVWC4Fl+UrGoCejc/rnTxI6MFeziT+BkFKXqzoXK7hnGzTGjtGOc+nj+WSBw2xjwDZOH4DRM5NhbIFeDOQm+NrTgdn43TQ38FpYNTtfAlzWZ6WSjZXNNujxv7Z2uNNe6DdmoO/uFtq4vK0mP5rY/ZtzA3RBq9S7TqFqp2rHUw6871whwo77yn7CbjW8VClSzTj9J6ZVfTGiiozw+Jn234ttaVYyvTefMf0935vJGt3TJ6iKfSJZ3Dx1YwAFXKENUOpKiRF9ZV3RRvbt5Tr3NTG28PiKzOFlo4CbTlmwpzS2llan2OEHJFd4/gpdZr0agy5A+k5ZXrOMr3XFWPH4AnPeAs8avCMMRdljeEbJVtrEtNa6R3D50B79vT5yMl0JCj/rKDePrraiN06wg5g/SM+eN86XgjDSdjHwyjwfc/zPRp5cRT58TBJhzgK05WiEMolgfkHJ6dADDgeNURouupvz5B6PJ747ws4/zUux2jnaLiN85WS9iO1HxnH4oU2Ow3ewxnVcyFRSjAsV+wcvP9g+Ch/0BT8ZrMI1dLntu6819u54N8l/1WwT7b7MfP6sU9JN478qBumdNgdUTzo4lEyiALKSJie/sK9+w1cwVKwqxQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>5583aa83-dc55-42b3-bd5b-c5cb07f4fccb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>c2328accc309d61049521d12b40131f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:11:55</sys_updated_on>
+        <ui_id>0a503a59-1892-476e-a9c4-be08f258b035</ui_id>
+        <values>H4sIAAAAAAAA/91U32vbMBD+V4qeY2PH8ZLmrbQrDNYWVugeSjGydE4EsuTJctLM5H/fyb/idN1Iyp4GftHnT3f33X2n55oITpYkTlmYMvYpjsIgiPBLs5BfhsElsHgx53MyIYrmgEypV4mEDUiENlRWDgNjtMEzF2Uh6e6pgz93MFsLyQ0osnx+mZCCGoxkwZBl/eaX3RWQSJpi8CW5XmvBAK+fWmB/8WtX3TsFuwQIsT60NtzVEUwIvFpQHDBVRmUJE5JTxanVZjcgBih/UPIArIWyGI048mspfmLoWeB4GaAkBu2/NlmJCuuhRM+7uNcKLjxv1MVRPfvJgftFZXrEEu2xY4Zj5ndqlFCrEXmLyIE8HZP74bydYceN9jgPDhmtpL0+X0F4soLpOQqiMxTMnIK2+Q+FFRo9RkLnAZrKfjRaVrm6b31CBr1Px4V26M2xuTtRVQkJh8J5x5mhc0b2uNbbb70PboVqKup+Ss2oHE7UWiPSyrr+1gQk5BgoyWlRYCOSwuiNaC5jsbm/knjwM6m3mLQUK+VT5qT5aFXq3yJ+08BP1Agn8w7D4OV9Y8rkR+XytkK7ipOmLY5QMiMKe4XhNtAV55rdLN80+tvyQXy8bDmUJV3BaDJ1HceLiNJF5HEWx95smkZeyuPUYzFLg3k2yxhL/SQpLbVVmST7/e+vyceCfOztecSZNDY8VX5/8W7Q/m5Duven7MP32/LP3p9pHP/hARp24KwV+N8d/vILk83lXQEHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5b17d886-6a1a-45b1-99bb-9d47a28edf5e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>ca328accc309d61049521d12b40131f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>8a57209a-ea57-4a4d-8d12-2b671e8d966f</ui_id>
+        <values>H4sIAAAAAAAA/81UTW/bMAz9K4HOjuHESZzmNmzIaWuBreulawVZohMBsuVJcj4W5L+Psuy2yLItGLphN4si+d4j9Xx/IFKQBRln02zKYDxN83ScJkk64TMhAIoiy0fjYkIiUrESMNOxXAFtDxHZMNX44I6OJrN5mlK2BatLoAnlujHW5whpa8X2dxek8rVUwkBFFvcPEamZQRQHhiwOJ1duXwNVLAeFHW89o8F1YHSpmrPF5yR6qNOYNsKzSiICOweVAAQtmLIQkZJVgjlt9mThTIMBA0zcVGr/lLGWlcOGxOfurPyG3eeJzysA9XEId3ytJYeb2kldhUjLoLvUqimr68DWjxgK1ijXjxgjjQUqoPbcPFoHXXxa6+3HHmgpq1ZGd6k0Z+rpxJwzMm8cWD/9Rt6eGUOIvu8m6eViEBSUiElLVteyWtHa6I1scZB2Ga8UHuJC6S3ys3JVxYx7jTFOjcVLjL9rw3fMSI/1Adtg8bEdEP3aeIpBcieOhvlgguVG1u4NtttAp+MY9e87/+WLYM/LLyQoYV+8bR//0mCJOBxyns1TAVdDMZuL4YTDfHjFZzCcJv5ZZZxnPI2lg/J4fESGzDg/i776Lb4FB2KgzeBzLfwnHcW8MbgNhwVcMwWWAw0UQpVHj55b/ein/43eH3oYShTlYBBkRRdvrW+w7Nd2usbevx0A3XQAnYdHr+Xh2TRJ/raNA5tXcPHpMP6hkxGstmAcDdk93O8M/uLH8xOrP3wHFSJvoMwGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b1328accc309d61049521d12b40131cf"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b1328accc309d61049521d12b40131cf^sys_idNOT IN0a328accc309d61049521d12b40131f2,42328accc309d61049521d12b40131f3,8a328accc309d61049521d12b40131f3,c6328accc309d61049521d12b40131f1"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">360c0e6dc330de1049521d12b4013106</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id>35776341-5488-4138-af69-d871fb1e457a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>0a328accc309d61049521d12b40131f2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</ui_id>
+        <values>H4sIAAAAAAAA/6VSS2/bMAz+Lzonhl8wmtwKFAV62Ap0RS9DYdASnWiTJU2Sk3qG/3up2E6LXnuK+ZH6HgxHZvpg++Cfza338qDZ/vfrhkkdMfoemYYO2Z7JgJ1nG3YC1cd6HFuR5xwK2JZpttuWFcct8DLbpghlBmmB5U2VKOlDbdraNH+QBz9NRCGktwqGl+8z8aNUwuFi2oIjrwEd249fWmGwWCtoUJHgE3LjRAwjBZXZTrS7LN3xIq+KPE3zmzJrqqLJclEAiorm1pcPyxK+7CSyU+muvPQTXeTphuFbQC2QhFpQHjesAy0gGDewfXA9AQ5BPGo1XCeOUgeiY3H2zcv/xJ2laRxskRJxnJv8aCTHRxuk0TMSoFFr06i+0z9nn3Hn2EKvwrpzQnqPtUAbzUW5Rbv9dTTnp1XoXupLkKWpDAd1rSAEJ5s+oI/7RoUdEdUdWCv1obbOnOTlMXnpkoOiImmVOZNovLMEeDSe0C4guSf87gK/gJMxxQ+iocfTJXX9r4+6c47FcT2HpgHPnbThluhOuJibXuOhzkx+vgCBXHoSfI7Yw3resTHQvyn5Z+hs3N9o9QOb3gFE3tx5KAMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7a0c0e6dc330de1049521d12b4013107</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>42328accc309d61049521d12b40131f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>5b17d886-6a1a-45b1-99bb-9d47a28edf5e</ui_id>
+        <values>H4sIAAAAAAAA/+VUXWvbMBT9K0HPjrEdO23yVroVCus6mlAooxhZuk7EZMmT5KRZyH/flT/asqZ0lL71zTr36p5zrg7eE924unF2qc+sFStF5j/vAyKUx/B7TxStgMwJ04oLJ7TKWyAgGyobXzjXjbEwEnaktBvVBiwoh3UubC3p7vaNNrYWkhvoeWtqcLoDQ+b7f0puV0MuaQESpy2cEWqF1wXHUxnRMp6xmE2S6SSJouQ0jYvppIgTPqFAJ9g3XDwfbIy+tUjwqj/Ph7gdmLThXlYcBQQeHCgOSF1SaSEgFVWcOm12j4gByq+VfALWAu3OCfHND1b8wdlJlvnGEtAjg67I1lowuK69kg5xtJBDUcumUt87wX7FUNJGumHFiDQWcg61V+fpeu5ysdbbm4HoQqjWSV+UmlH5eKIO/RaNA+tfACRUOCivaF3jFvLa6I1oL6OWKlxJPISl1Fsk9eEJKfPCQ1wGDS8Q/9LCt9QI7+IKx+DlTmZBrWB5GzQc5wxaOLTryH83XlBnsLeSd9vABsuMqN0Z8mygV30IXqb0WUD3exrHyUlxWowhjWCclrOTcVEAH6dRmmF2iiQBCG+A4RMfDpeLr1c/lncvE/zuOR8R8RnNyiyOsuMRT6fHIn4k3K/nOnkj1/6B/jPWURR90lwLm3f57L215O+O9b3PcMdgu4BwYMKikKXHLod/tC/s8KUFew5ttfnlLTxhh78Eqcw17QUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">be0c0e6dc330de1049521d12b4013108</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>8a328accc309d61049521d12b40131f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>5583aa83-dc55-42b3-bd5b-c5cb07f4fccb</ui_id>
+        <values>H4sIAAAAAAAA/+1YUU/jOBD+K6eIR8glbUqhbwiuEqeDStcuLxcUObbbes+1s4lTYBH//cZ24iZp2V3Ysg+nSlWazEzGM/N9nqn77MlSZaUqZvKiKNhCeKN/7o89JrQM7p89gVbUG3lJUiikyiJJvGNvjXiphc+xh+Uq4/Rxkn6mWMXeyIgItXdHeF3fwHfsfUZr5HMkFv5U5UwsYu8YdGuji72XF3ha0aJAi3e+rx2saV4wKYws9ANj0gpyipd0hazfMZcPV1TnTfPR+OricnY9uZ3OLmafpq1cYu9aKLqgeeWOUP9ozignyRxhqgprPGV6mRuUjbXQvPYcx7FXstlTRv9CKeX6caQvtb9Ye4RLThFJpOBPzmKOeEGdfsmEciontZ6dnHWcEjpHJVeJwWv7bd6K6FKnWqsQVlDEhOa5zBNLEWeo8nJjuEKCICXz1+KWObEBGV3YeO8x4VQs1NIpo0BfX+DT4gHUdQN2Jf7Z6lce91r8ou3zTbW/qbL94PL3vl3+wAGgEfjG3vCPFGT+Q9V/UxkuTNq/TU2n2X8xSvZJsC8lvSbOYHgepbgf9U7O8Tk5iaIoPUH9ee+EkCg9RQMUhMN+B/A2k6rGV5tgmZjS6K7pbDqNpbalnK6oUMkKZRkwJ8lyuWZNuKBt+QsOIn8OWCTEgOHbcviQKfI3GN2hnKHUIJC9p62IkvNdrJbt/N6wnU8HHUIVFELk7CvS8Y9lvkKWJ39OJ7dgAnOFsCLj6OnuMF4O4+UwXg7j5TBeDuNlj+MFLxknORXmXMMITBgQVucb3XQbJ5u2NZyICpyzTGkGrUFvsqyFQFAIYMtj1Ut+ximYZCgHd4rmIGgnYFqU2Q4AitY2+AOLVRMA1txBcNBrakMrbAb3nXC60Zfsys5rvSx4YG5Fw1G+FUhdoFpzaWveRkB1nRlOeKPw2KOPigpCiYvN7Ugn0YScAB+dQDPQrgocKthX8B0F2m5OIRHsYJEM00mmC2UlSrO9UkpersStjVL/SrE9525TuEpy1f75AoqyoLCvMh21DqOKaT5dyoe/6wjGTJgEKyWXGHH3hBS0/bRUtLAIQNzJl1Ib2HUr14kNW7PwO7Swo+kXsqKoF2yRwoXR5cSN2zVb20h1HFbE6O2RGMH/lxr3HQTsZKkRCObDHsyj3iAN+70gDNLTkCK46Q/PQjyMzhsI/aEZUw3RDUyt/4cqpGS9RL2FdXn3hNXZB2C1X0iqjdesQ3srOgSaUx3k7XkO+tcmuWma753h3g90k117X/eYKlAqtDvSmHDh9iHOdJRuk3htqnVJOoOXfx/rZWuiEjIMwrMhxv1Tqok6GAz66TAKEIkCQghuEHUT3la8FUFTKTlF4mMYuucxM6+qsLuh1NpfPnB2UuReM8KSrbCoEoqZPjfPtOy6/ndZK54AHIabogeZ/6vZvJG9/AeDdmVWpxYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b60cca6dc330de1049521d12b40131f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>c6328accc309d61049521d12b40131f1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:28</sys_updated_on>
+        <ui_id>35776341-5488-4138-af69-d871fb1e457a</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b1328accc309d61049521d12b40131cf"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b1328accc309d61049521d12b40131cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf^sys_idNOT IN06328accc309d61049521d12b40131e1,46328accc309d61049521d12b40131de,4e328accc309d61049521d12b40131db"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>06328accc309d61049521d12b40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:10:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>46328accc309d61049521d12b40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:10:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:10:33</sys_created_on>
+        <sys_id>4e328accc309d61049521d12b40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:10:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b1328accc309d61049521d12b40131cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b1328accc309d61049521d12b40131cf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b1328accc309d61049521d12b40131cf"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=255000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>81950227c3f8161049521d12b4013106</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>generic_courses_for_a_department</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.courses","label":"Trigger - Record Created or Updated➛Department Record➛Courses","reference":"","reference_display":"Courses","type":"string","base_type":"string","parent_table_name":"x_146833_awesome_0_department","column_name":"courses","usedInstances":{"fd22ca3a-4019-46ce-ac41-0ea41a03e486":["comma_delimited_string_list"]}},{"name":"5583aa83-dc55-42b3-bd5b-c5cb07f4fccb.__status__","label":"6 - Error Handler➛Error Status","reference_display":"Error Status","type":"object","base_type":"object","usedInstances":{"0a503a59-1892-476e-a9c4-be08f258b035":["log_message"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a1127b8b-e40e-4f97-bbed-4045f0ab22ee.Record","label":"3 - Look Up Record➛x_146833_awesome_0_course Record","reference":"x_146833_awesome_0_course","reference_display":"Course","type":"reference","base_type":"reference","usedInstances":{"5b17d886-6a1a-45b1-99bb-9d47a28edf5e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc783de9-d68d-4ce8-9c6e-5012f47cc7c3.item","label":"2 - For Each➛List of Objects_child0","type":"string","base_type":"string","usedInstances":{"a1127b8b-e40e-4f97-bbed-4045f0ab22ee":["conditions"],"8a57209a-ea57-4a4d-8d12-2b671e8d966f":["name"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Department Record","reference":"x_146833_awesome_0_department","reference_display":"Department","type":"reference","base_type":"reference","usedInstances":{"a1127b8b-e40e-4f97-bbed-4045f0ab22ee":["conditions"],"8a57209a-ea57-4a4d-8d12-2b671e8d966f":["course","unit","department"]},"attributes":{}},{"name":"fd22ca3a-4019-46ce-ac41-0ea41a03e486.list_of_objects","label":"1 - Convert String to Array of Objects➛List of Objects","reference_display":"List of Objects","type":"array.string","base_type":"array.string","usedInstances":{"bc783de9-d68d-4ce8-9c6e-5012f47cc7c3":["items"]},"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FDe57fc3d33edd2110acb6d686b8ac0402","child_label":"List of Objects_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"list_of_objects_child0","child_uiUniqueId":"cd1b6453-87e3-4589-ae5d-5339437930af","uiUniqueId":"76e4d656-c532-41f9-b053-1c471a21ee06"}},{"name":"Created or Updated_1.current.topics","label":"Trigger - Record Created or Updated➛Unit Record➛Topics","reference":"","reference_display":"Topics","type":"string","base_type":"string","parent_table_name":"x_146833_awesome_0_unit","column_name":"topics","usedInstances":{"fd22ca3a-4019-46ce-ac41-0ea41a03e486":["comma_delimited_string_list"]}}]</label_cache>
+        <master>true</master>
+        <name>Generic Courses for a Department</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Generic Courses for a Department">b1328accc309d61049521d12b40131cf</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc44ce80c349d61049521d12b4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:29</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc44ce80c349d61049521d12b4013182"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fc44ce80c349d61049521d12b4013182"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fc44ce80c349d61049521d12b4013182^sys_idNOT INf844ce80c349d61049521d12b4013183"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fc44ce80c349d61049521d12b4013182</id>
+        <name>Generic Courses for a Department</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:29</sys_created_on>
+        <sys_id>f844ce80c349d61049521d12b4013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f844ce80c349d61049521d12b4013183"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fc44ce80c349d61049521d12b4013182^sys_idNOT IN8144ce80c349d61049521d12b4013196,d144ce80c349d61049521d12b40131a9,fc44ce80c349d61049521d12b4013184"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</model>
+        <model_id>fc44ce80c349d61049521d12b4013182</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:30</sys_created_on>
+        <sys_id>8144ce80c349d61049521d12b4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8144ce80c349d61049521d12b4013196"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</model>
+        <model_id>fc44ce80c349d61049521d12b4013182</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>d144ce80c349d61049521d12b40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d144ce80c349d61049521d12b40131a9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</model>
+        <model_id>fc44ce80c349d61049521d12b4013182</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:29</sys_created_on>
+        <sys_id>fc44ce80c349d61049521d12b4013184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc44ce80c349d61049521d12b4013184"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fc44ce80c349d61049521d12b4013182^sys_idNOT IN1544ce80c349d61049521d12b40131d3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>1544ce80c349d61049521d12b40131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9Va227jNhD9FUFPLZAWuthWnD6luXQDZJPCdrcoglSgqJEtVKa8IqXEXeTfO9TFlnVxfFGa7D5kY5HinBmeOUe08vBNDYgDgXqmTogTgHqi+kxAxEgwWS4ALwt52WZkLsfmhLlEhNFSPRNRDCdqGLkQqWf6iZqQIIbxkt+4eBNOTe/Ib1fzYfz8bOu9walp2uQJeDgHW7NdWJBIzIEJnOf6fBGQ5Zd8+mV5jM78wI2AqWcPjycqDmAIIcN/qwz5EgP1dNCHpxo1DfynacZpT3cGpqMbrkmAaLhgNfUKZtFQgXXC8CyAuYChPBJwaChOBMS9Z8GyNOOZ+//imqeaHPUAEVPI6kVnoU/hfiH8kGVXMhjZYBjEc3aXwZNVAo/EgSiqhFdiDrKQEhHWqgjojWfh06gIdO2zFHw+GISUBKtPRIjId2IBXNbT8wOsrJ2lzsM4SmGOri7uR5f2n+eTi09XI3t0NZ6Mbi4mV5fqS5qP/TWWK2YIcyx2ls7LamuvfQjk/uQF5TTyF+KcCj+BHMzLyZqVFyFz/bQmNWbSYohvMjNPqNgpTWslJy0tXhCUYrIc+M347n5y9fn3yV9/51e+nN9efDq/++1qvDcVLc1yXb2NitQpUbGcbwNK0ZB6OdFtpMyvtLOyp2lvzcusMQ6m5Tx0IbhcL6fi4HSKRPXZIhayGEUB7HABkUwc71PXW/dL/v/16P5z8fvkHu97IkxwW4Q2cV27VF4ZAnN5jd9ZTeokf53gUcxwCXu1cXWapxuw2olbn2PiD9iiRZXTJXHcu82XHMVMCXGH8YdC4wiLLJRC07ybOZnme+ONIQAqSmzx/uDlT599zn02LaFeBU2rUou5CoesU4qUstj8yOCPB/Z4vb5JpW4Vy9m7u3XaMzTTGWiW7G0df/V0zdL6xHNNTXNOS91dB9OKUlR2v8Mub+lxntIq2IFE1Qrm2LQyr3ciRLLJpiJHudm5lFx0A03vCJohoVUk0dxLE1esyy5fbpJvW2odWzxxE4J3uLtKnJywg5Z5QfiEcnyAjjmE/jONwpi5VWGRayo+U9YzlB/y+v3YoaZ5YQTbAWzOeCc1W1e44Chhyw50zDB1sAa9gYbyZUrl6g+HDiWG51kDC3S9omNrGI3YPoJ+vcKbpIl4bVrWSIGkiTl7qNgRAGuKtjfA47Us512jkmVj34dmPc2A2Qg1sgOpSjXpmga+C8XYwX1bi5KsO/XY3qXO0O33LYtaeLrA3vV64BC9Z/TJ0BqY4FV6twZlG0zRUIQ3PHPwJU/Df7gz8VuSj4MQ0h72d02Gj43pPSQLUnIuWXEllYYwUu5C9tPNep4yBjSk9EzZlX3uggIXi5S3heGEYlbzbwz9K17fCC2f+1qq8p6HlQofks20jhUKYhhkqJstQmENmoRiDaYd5nvb/Y5cT1q7psn3d6Vu0tgBrUZ9ABkrLCg7+JZHjK6KondeFOPtimIe/VhTtFrrCe0QsN+RGaXmf4wjyZhgh15Zhi9DBQcUDKL4npJ/b4cHbmepiBlgSQN8fsWAiox+rP6W/aAOZcXg/xdI9kRc8yW8rOTPO+9qOZVd7/ZsCa5Jh26b7fSs1ufTdu+pDL+3Ae3N76SpXba60H7rVtds9KES+TY3fEeH6TTrZps5LutGo3kt6+MtZNvJuAHFxzcHCXqSbcMBlhAyWjkT0C5fRsTM/xqDTWeETbMXDUWga6wzEDpTsilKNqVLUQ+eyJKrVXdB0sq+yL/CxQvYISwTqq4iQwLRsparvKjEC1S3Y7PcZijGFkMpXslxESGI6bLUZAXkPb+XdIbYSH2Nmrpu1t6e9stvTzdZ2g6oxSyMQ81i5qdvI0vh850Q/hxSxVq9UlTmRNAZ8BMFtyv9qj8VND/iIp39s3rI4YeW333k3dbkJa39kLS1Uqs2b6F4Um2OJjFuoGuVJ2U53nrM2ZK+3kn6Rhfpm4el3zvajfKKNNtRXr1uLeiAvwdRmz3o8T9AgQrYoyQAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fc44ce80c349d61049521d12b4013182^sys_idNOT IN5d44ce80c349d61049521d12b40131d2,9544ce80c349d61049521d12b40131cf,9d44ce80c349d61049521d12b40131d1,dd44ce80c349d61049521d12b40131d0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>5583aa83-dc55-42b3-bd5b-c5cb07f4fccb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>5d44ce80c349d61049521d12b40131d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>0a503a59-1892-476e-a9c4-be08f258b035</ui_id>
+        <values>H4sIAAAAAAAA/+VUTW/iMBD9K5XPBBFCtpRbVbbSSv2QlhV7qKrIsSdgybGztkPLIv77jhMDoUWrsuptpVzm+cWeN/NmnjZEcDIhac7inLEvaRIPBgl+eRHzq3hwBSwdX/JL0iOKloBMqReZhBVIhFZU1h4DY7TBmAtbSbqeB/hrgNlSSG5AkcnTc49U1OBNDgyZbN4cfTQVSXN8f0LuQh4nUnPrykNsqQWDEN+F3252oDbcpzHoEXh1oDjg+wWVFnqkpIpTp816jxig/FHJA7AUyuFtxJNfrfiN740GnlcAKmLQnu3DHzSXMG0r1B4VU+rozJmaudoEepuwxXps9jKj6OJBK7iIok7NO+lvewfuN1XoDku0YWDGXeZPapRQiw75BZEDedgl71r5tuOBm2yxexwKWkt3c76C+MMKhucoSM5QMPIK2uI/Vk5odCSJvW9810JrtKxL9dB6jez1zo8TDej0eBSCqNpCxqHyVvPeCUYqZkv98n3nk1uhmozCodSMyn1EnTMir52v74aAhBIvykpaVViIrDJ6JZqfMdmyv5AY9AupX/BRKxaqT5mX1kdn0/4t4tMGnlMjvMx7vAZ/3vaIXdsbSa09iEUbZ79qn0krPWjImkI1vzAjKneND6wgpOvL34z0MPnbSEN6PMIlWEsX0OnVZpOm44TScRJxlqbRaJgnUc7TPGIpyweXxahgLO9nmXXU1TbLttv32+jfLjlvd31A6M6P93uVJ6WH/WWx3Y3Du/trtgN34/Np+2uYpp+3wE6thPdDdtaM/X8j9PwHMk00J6IHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Convert String to Array of Objects">7110d9c75b820110a76b04d13d81c70d</action_type>
+        <action_type_parent display_value="Convert String to Array of Objects">280f09875b820110a76b04d13d81c7a5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>7110d9c75b820110a76b04d13d81c70d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>35776341-5488-4138-af69-d871fb1e457a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>9544ce80c349d61049521d12b40131cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>fd22ca3a-4019-46ce-ac41-0ea41a03e486</ui_id>
+        <values>H4sIAAAAAAAA/5VSy27bMBD8lYBnWxDt+FHfChsBCrQN0DwuQSCsyJVNgCIVPpy4gv+9S1N2i/TQ9CbOzu7OzOqpZ0qyFZvOeCk/icWsXk5KzktYzOvyWvKpXHKx4CUbMQMtElPYtoVKolatCigrH5wy20orH4i0Bx0Tq+/XDoHqV9ZdPXQyfVa8ENE5NKEQNjqP/nikFql8p+Hw+P+dYqe0JJStnp5HrANHCgM6turflT5qUUON+p8ePxREOHSJlMHh/XUYf3cGrZNJLh8xfAtoJJLOBrTHEWvBkHXrDmwVXCSAQpG3Rh8ujJ0ygYaxxH3z6ietW5ZlmZgNknWBuXp53kOtcZPTzqVmAwFITRQhuoEudlYJ9Dk4iQ1EHdZ/Yplw2wVlTW4JafDQbXVszfecELsMOB+XkOiRQuuS26R/MNPc7ezrj7PSG2VOwQxFbQXoywsCxVfHkPT0LKr7d0ln5K+sUWNLG6sWui7dqXN2r05b0iWLraZH0Wj7Suq82poCRHJY0BWguCF8c4Ifwalk9xuNoea07sGol4hf0j8mpnzK51M5BiHE+Bon9XiJMBtDXc/LWb2oZ3zCjiPmD36twfvfQdGVqpeYbObYhoCqnHFqEU514TOJ2uOQxfH5FyzJDse/AwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5b17d886-6a1a-45b1-99bb-9d47a28edf5e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>9d44ce80c349d61049521d12b40131d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>8a57209a-ea57-4a4d-8d12-2b671e8d966f</ui_id>
+        <values>H4sIAAAAAAAA/9VUXU/bMBT9K5Wf0yht+rW+TSCeNpAG44Ux68a+oZacOLMdoKv633ddJwV13QYSmrY3+36ee659bjZMSbZk4/l0PgUcT/MiH+dZlk/ETErEspwXo3E5YQmroUKK9FBo5LtLwu5Bt8H4yEeT2SLPOTygMxXyjAvTWhdipHKNhvX1C0LFSmlpsWbLm9uENWCpi0fLlpsD10sxayhQU+hVAD04j6CPDeLXzVHbh2MFjJUBVJYwfPRYSyQ0JWiHCaugluCNXbOlty0ZLIK8qPV6H7FStaeCLMQ+OvWd2i6yEFcijScw+vbXXePTSGF0lafg4ZKqC9/aLlysjBLoIjkSS2i1P3luiwEXjVemjim7Ubtso9uqPo+0sH2BfmNkaR1yiU2YNaDvRikvV+bhU4/0TNU7WjqnNgL0/gbeW1W0PuDZsFZdHeE7WnvGA31kRI0V9eQVNI2q73hjzb3a9SHYVXqn6ZKW2jwQPqfu6hREmDGlLUB6RvbTnfkarAq9PlIZSt4mzK3diQbnnsYmzvm3NoCOJHTj8shYSBFWNf49NbjHbrJt0n+g4rePEZ7eXalQS/fs8wT7l5ZS5GZTiPkil/huKGcLOZwIXAzfiRkOp1l40XMh5iJPlcdqu/1KCMH6wE6ffUKvzaMcGDv43Mhw5KNUtJb24ylBGNDoBPIIIWaF7slTqZ8/7L8G75Ui8ee99CJx1i/mcFG9OGBFvHjkcXEHAtE5B9edsxOJ0VuJxGyaZf+bTsTp3kAmDpn/i1JBzRqH1vMY3bd7vYI807pfaMntDwygxLqOBwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>dd44ce80c349d61049521d12b40131d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>a1127b8b-e40e-4f97-bbed-4045f0ab22ee</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8A5cQIKFvp1aVVtrbStvuvuztWY7tFOtMnLWd/kL87zeOk4AgBaKjp1b3hu2x55uZ7xs7/Fj5nPoXPp0H82w+nyZxEERREMxmEcFhmkYzkgYpnvgDP8dLBpYGp4LB8AGL0o6fUDiZJVGE8CPTcslQgIgslbY2lOtC4OfvJ5iSBRdUsdy/+PFz4BdYgTfDlH+x2lk6Fa7AKRNgelfj3YFvnot2iKo1N/d5e5v3xS1IRS2UYOCzJ8NyygBDhoVmA3+Jc4qNVM/tjGKY3uRiM7HguYETfWv8pPkL+E0Ca5cxiIowt9YOK89XLnNuKbvCBt8aVRJTqtqcLCQnTLucUJbhUpjL7TlncFMYLnO3xYXudktRLvMvLiV+e0BTKJgpNUOUFTZYi74OJbtdyMevDdJrnld5qReFJFi0I2yM4mlpLJ6VzwRbwkFoiYuC5/eoUPKBV5sBy3J0L2AwyoR8BKea3+cjTCzwEeQWj65h/qqa/o4Vt1H8AcfAZgDEBbAEuTJqIFOVzgdERKmrBYVz7c7y1wNfP+tLgbXeRA5pR79Ki9vloY4YuaTZLUTxwvwORzywOrj1oFHN9CAN5xvaEZlTblHoLenYtT9L2EpXq5TESUTZfEhnCR1OCEuGczJjw2kQjrNJTEhMohE3bLle/wUosTI2n83uSyCdYdSTyvtWUPsThSNSKiiTWa/3lfgfeu4p7OMZbYR9uZ3SrjTXEt+b+9x1QC3x8GwSnwTBRxM5OH9/Gu+vWpeCbuk2kxX9NvWHUZfO163SQ3qQl3RDQS2VQS71W1Lfl2BvaZwAoZHGjSWzlz6/hqpWRsaZoF2X37Vd2Ln8xv/fy+9d6gIAUeQqyHPB8+o1A0DfUDDbJDqqmOlBuqbhDjcrSm70Us1hTfZ1gz0jvZfe6jkBTqOeW/Dt3Tk8HRCba6Wi2O6V0kzWoonOJppofD7RrNpQ22R25L159NqKNvYv1h7v2gNttzaE6y5R9vIZ9vU5Xu+LPuql+m3CuZWrV3h35pfxKyoevGXbWMDW2h9yKkaPnN4zs/HeWFFpHrH4u2u9FiZqClWF9wav7PDgx1669crmGVpC5XgBHwOKESCHRlgxlMkyp6j+DNgQyVYy40qb2ni/2XxloJ/ckyBOzyyYV1l7rXXPC/x4HE0qP2VeE0jtTXsQiFcF4rWB9Au7T+OanPEd/BaN6xpzUVUEvvKKrZIypaR6pXkdKeYBVpzY2U4EFZ4V1L9vfV0y6GyBR7B+iL8Mzt+eCMPpZIxncRSGQRAGNA6SOA6TWZrNcDzJNjpFSOcEOiqcnAFV4HjUUKOpc7jfg+qG26/XnACqYeCVzO3H/Dg2nkUF5fUaVMdx1z0llVIwnO80lTtA/tt1dSu0dJ2+y8byIf5DK/ndbrbdVGe+3+r5UPJvOf9Vsk+WZgkLxklIyTCJw3g4yehsOKd4OsTzdBpHlJFJds4Xwc9/AN9QWESvFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fc44ce80c349d61049521d12b4013182^sys_idNOT IN5144ce80c349d61049521d12b40131cc,5144ce80c349d61049521d12b40131cd,5144ce80c349d61049521d12b40131ce,9544ce80c349d61049521d12b40131cb"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">360c0e6dc330de1049521d12b4013106</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id>35776341-5488-4138-af69-d871fb1e457a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>5144ce80c349d61049521d12b40131cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</ui_id>
+        <values>H4sIAAAAAAAA/6VTTW/bMAz9Lzo7hr9gNLkVDQoU2FagLXoZCoOW6ESbLHmSnNQz/N9HxY5b9LqTzUfy8T1KGpnpfdd792JunZMHzXY/3yImdcDof2QaWmQ7Jj22jkXsBKoP8Tg2Iss45LApknS7KUqOG+BFukkQihSSHIubMlbS+co0lal/IfdumohCSNcpGF7/n4kfpRIWF9EdWNLq0bLd+CUlBQ1Kt6LZpsmW51mZZ0mS3RRpXeZ1mokcUJREqKBGRaUPi9sv5v3QhdAiN1ZcgW9Lz9OK0ieIyJKI4btHLZDGN6AcRqwFLcAbO7Cdtz0BFkE8ajWsFUepPdGxUPvu5F+amCZJKGyQDHGck2v4ArXC/bzTOdXswcMz0XPf26WcH43k6OZ1CGygV/7uMzYXPHZeGj23+EC8dBvVt/rHvA22ElyPkJDeYSWwC2aD/MVL83w056er0nupL4tZkspwUGsE3ltZ9z7oGRkqbImoaqHrpD5UnTUneWkmLW18UBTEjTJnGhqubQw8CI9ptxDfE76/wK9gZXDxnWioeYqYG9ydAuc+vNAiqz99UDI7WzxU8xpCC7ey87c04ISL3OktvISZe90pl44kXI7j4fp+QmKgWyT5Z+hs7O8g/gOb/gH/oEtNiQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7a0c0e6dc330de1049521d12b4013107</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>bc783de9-d68d-4ce8-9c6e-5012f47cc7c3</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>5144ce80c349d61049521d12b40131cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>5b17d886-6a1a-45b1-99bb-9d47a28edf5e</ui_id>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPASUh0Ja3ClapUrtOBVWapiq6cW7AmrEz24EyxH/fdRI+tDJ1nfq4N3yufe85J/eILdOVKytnZ/raWjFXbPTtOWBCeYx+b5mCJbIR41rlwgmt0hoI2Apk5QtjXRmLHWE7SrtOadCiclTPhS0lbJ7euMYXQuYG27klGOru0LDR9reSyKlLEUIRXfGI9+NhPw7D+DKJsmE/i+K8Dwh9aighQ1kPbAl37mok+KMStyk9bp0Rat6e79ou0z2oTe5ZRWHA8MWhypH4FCAtBmwJKgenzeaAGIT8QckjsBCkdsSYv/xixU8aGA8G/mKBJJFjUzwcZ5BJnDQWNqViAg6ITsVdZdrrfKEFR9sYlGMBlXTjU6y58FB6uc0T5xu3r7Wslupz4wo7NNh/MUIqi2mOpVfr6bdaiulCrx/3TG+Eqp1pi1JzkIcTOPIvq5zns2UocUmN0iWUJbmalkavRP2YuCx7c0mHXiH1mob6XewB98R7ZC70bgif1PATGOFV3FMbetzQzMAKntZ7S+3IJmS7gNmNHUuw9iiSHE5/VJ5iI7kVlzb++CfciNJd0+QVtjp2wesYnCRgu4Uoii+yy6yLSYjdpLi66GYZ5t0kTAa0slkcI/YekdMS7Xa300/3X2ZfX0fkn/u8L0NXMCgGUTg4n6FkeC5DZ9LzzuDEbwTHf7G/zE0Yhv+D8yHBETZt1r3VVg//wNw8+5A0Mw9ec2GJWv2Zbvf/Mr6woQUT/BRaa/Pdizpiu19KZtnKrwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">be0c0e6dc330de1049521d12b4013108</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>5144ce80c349d61049521d12b40131ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>5583aa83-dc55-42b3-bd5b-c5cb07f4fccb</ui_id>
+        <values>H4sIAAAAAAAA/+1Z32/aSBD+V05WHxPOgAkJb1FySDk1QTpoX47IWu+uybbL2t1dk6RR/vfO/vBiA2mblOruASki9sx4PDPfNzM2PEVFpctKq1lxrhRbiGj07+1RxISRwfFTJNCSRqMoTZVGulJpGh1FK8QrI3yaR7hYlpw+TLJPFOt5NLIiQt3RO7yqD+D/PPqEVqjDkVh0ploysZhHR6BbWd08en6GsyVVCi3eeL1xsKJSsUJYWbcTW5NWkFN8R5fI+R3z4v6SmrypHI0vzy9mV5Ob6ex89mHaymUeXQlNF1R6d4R23uWMcpLmCFOtnPGUmdtco3JshPayp/l8HlVs9ljS9yij3JyOzEftb248woekiKSF4I/BIkdc0aC/Y0IHVZA6z0HONpwSmqOK69TitX01b0V0YVKtVQhrKGJKpSxk6igSDLWs1oZLJAjShXwp7kISF5DVdRvXPaScioW+C8okNp/P8NfiAdR1DbYX/2r1vce9Fl+1fb6q9tc+299c/t73yx8HAAwC3+mNzjsNmf9U9V9VhnOb9h9TO2n2X4yKfRDsS0WvSDAYniUZ7ie94zN8Ro6TJMmOUT/vHROSZCdogOLusL8BeJtJfvDVJrhIbWnM1Aw2G4OltqWcLqnQ6RKVJTAnLWWxYk24YGx1FhxEnRywSIkFo+PK0YFMUWeN0UckGcosAuVbxoqoON/F6qKd3yva+WSwQShFIUTOviIT/7iQS+R48vd0cgMmsFcIUyVHjx8P6+WwXg7r5bBeDuvlsF72uF7wHeNEUmHfaxiBDQNC/35jhm7jzaZtDW9ECktWasOgFehtlrUQCAoBbHn0s+RXnIJJiSS401SCoJ2AHVG2HQAUo23wB27mNwDccwfBQW+oDaOwGdzG+o1+GOCRXQlSIP6eic+7MqzYpXNqQgMDFqKyPOZbwdZFrDUXDpc2SnqXs+3ELZuiUfcoog+aCkJJyCH0cpAYKk+AyUFguOtiAfYp9hXumMTGLqeQHvYVCqcz0x4+WafKL6GHYBVUWFcy4F8wTJUrjjuZlAYep9bGibcseLUUNy5vA46bdA1wvORyC7VKUejm0mRsUvD55NO74v6fOtwxE7Y4XskLjHg4QxqWTVZpE6hBWT2qC46UWkcDaadfKnOJi8TfLHWJmG74AT3divyfsVPVQbXIGULd5OZ16PCtltc7HG6l7vnZ2yM/4wNDf46htx7OOB/2YBH3Blm334u7cXbSpQgO+sPTLh4mZw24/zIU9U8Pa8xbX4x52N1W24B9UgvrsWSw2hPwp/sG3iN3sUcy7BdzP06axW4PmFDu5jMTyNtPS6B/6TnJrpu3PiFFb5qauyaamaU+dCrMDUjjiaK7PRft5NwcdC89RdRdQMgw7p4OMe6fUNMFg8Ggnw2TGJEkJoTgRhesg9iKyrM/KwpOkdig/wzi+nNsMvo9LbDn3bzvBsh95rtHYq397+fibg7eGso5fof6YGa+CLGlvap/LjCKR+AFw03RfSE/mwZay56/AQ7gU5N4GAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b60cca6dc330de1049521d12b40131f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Generic Courses for a Department">fc44ce80c349d61049521d12b4013182</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>9544ce80c349d61049521d12b40131cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <ui_id>35776341-5488-4138-af69-d871fb1e457a</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fc44ce80c349d61049521d12b4013182"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182^sys_idNOT IN4d44ce80c349d61049521d12b4013193,9d44ce80c349d61049521d12b40131a6,d544ce80c349d61049521d12b40131ad"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:30</sys_created_on>
+        <sys_id>4d44ce80c349d61049521d12b4013193</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>9d44ce80c349d61049521d12b40131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:31</sys_created_on>
+        <sys_id>d544ce80c349d61049521d12b40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fc44ce80c349d61049521d12b4013182"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fc44ce80c349d61049521d12b4013182"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fc44ce80c349d61049521d12b4013182"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b1328accc309d61049521d12b40131cf</sys_id>
+        <latest_snapshot>fc44ce80c349d61049521d12b4013182</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b1328accc309d61049521d12b40131cf^sys_idNOT INed4402c0c349d61049521d12b4013109"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan/>
+        <plan_id>b1328accc309d61049521d12b40131cf</plan_id>
+        <snapshot>fc44ce80c349d61049521d12b4013182</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 03:19:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed4402c0c349d61049521d12b4013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 03:19:32</sys_updated_on>
+        <trigger display_value="">614402c0c349d61049521d12b4013108</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b1328accc309d61049521d12b40131cf"/>
+</record_update>

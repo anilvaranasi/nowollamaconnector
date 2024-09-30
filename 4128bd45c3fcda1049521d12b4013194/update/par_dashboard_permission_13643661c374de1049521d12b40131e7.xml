@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Awesome Student Home">9564f2614174de10cca23cd7ba4d9707</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_146833_awesome_0.university_user" name="x_146833_awesome_0.university_user">c9c1afd9c3309e1049521d12b401318a</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 12:25:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13643661c374de1049521d12b40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9564f2614174de10cca23cd7ba4d9707</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>par_dashboard_permission_13643661c374de1049521d12b40131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 12:25:07</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

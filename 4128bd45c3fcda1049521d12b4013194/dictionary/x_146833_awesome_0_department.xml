@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="aee16f1dc3309e1049521d12b401313d" label="Department" max_length="40" name="x_146833_awesome_0_department" type="collection"/>
+    <element db_object_id="aee16f1dc3309e1049521d12b401313d" label="Department" max_length="40" name="x_146833_awesome_0_department" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Courses" max_length="1000" name="courses" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="80" name="name" type="string"/>
+    </element>
 </database>

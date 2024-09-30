@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="a5b990cfc3f0521049521d12b40131f5" extends="cmdb_qb_result_base" label="Insight - Non-cloud Storage Volume-Query Results" max_length="40" name="u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd" type="collection">
+        <element attributes="encode_utf8=false" label="Storage Volume 1_Logical Datacenter 1" max_length="32" name="x_146833_awesome_0_u_rel_storage_volume_1_logical_datacenter_1" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Storage Volume 1" max_length="32" name="x_146833_awesome_0_u_storage_volume_1" reference="cmdb_ci_storage_volume" reference_cascade_rule="none" type="reference"/>
+        <element attributes="encode_utf8=false" label="Logical Datacenter 1" max_length="32" name="x_146833_awesome_0_u_logical_datacenter_1" reference="cmdb_ci_logical_datacenter" reference_cascade_rule="none" type="reference"/>
+    </element>
+</database>

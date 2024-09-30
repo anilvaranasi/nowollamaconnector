@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_146833_awesome_0_course">active=true</condition>
+        <group/>
+        <name>Awesome Student Genie - x_146833_awesome_0_course</name>
+        <roles/>
+        <source_table>x_146833_awesome_0_course</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-22 12:25:09</sys_created_on>
+        <sys_id>3764b661c374de1049521d12b401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awesome Student Genie - x_146833_awesome_0_course</sys_name>
+        <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
+        <sys_update_name>sys_search_source_3764b661c374de1049521d12b401311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-22 12:25:09</sys_updated_on>
+    </sys_search_source>
+</record_update>

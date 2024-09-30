@@ -2,18 +2,108 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_146833_awesome_0_topic" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">74c04ae9c33c9e1049521d12b401318f</list_id>
+            <element>name</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-22 08:39:23</sys_created_on>
-            <sys_id>74c04ae9c33c9e1049521d12b4013192</sys_id>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>cdf5ae67c3bc161049521d12b40131dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-22 08:39:23</sys_updated_on>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>c5f5ae67c3bc161049521d12b40131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>unit</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>c9f5ae67c3bc161049521d12b40131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>unit.course</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>cdf5ae67c3bc161049521d12b40131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>details</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>c1f5ae67c3bc161049521d12b40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>c5f5ae67c3bc161049521d12b40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_146833_awesome_0_topic" element="NULL" name="x_146833_awesome_0_topic" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">81f5ae67c3bc161049521d12b40131dc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
+            <sys_id>c9f5ae67c3bc161049521d12b40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-22 08:39:23</sys_created_on>
+            <sys_created_on>2024-09-28 16:29:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>74c04ae9c33c9e1049521d12b401318f</sys_id>
+            <sys_id>81f5ae67c3bc161049521d12b40131dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_146833_awesome_0_topic</sys_name>
             <sys_package display_value="AwesomeOllamaConnector" source="x_146833_awesome_0">4128bd45c3fcda1049521d12b4013194</sys_package>
@@ -38,7 +128,7 @@
             <sys_scope display_value="AwesomeOllamaConnector">4128bd45c3fcda1049521d12b4013194</sys_scope>
             <sys_update_name>sys_ui_list_x_146833_awesome_0_topic_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-22 08:39:23</sys_updated_on>
+            <sys_updated_on>2024-09-28 16:29:43</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
